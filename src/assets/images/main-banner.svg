@@ -1,9 +1,9 @@
-<svg width="685" height="781" viewBox="0 0 685 781" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="95" y="73" width="486" height="486" fill="url(#pattern0)"/>
-<ellipse opacity="0.6" cx="80.7398" cy="91.8856" rx="39.7454" ry="57.0735" transform="rotate(-134.084 80.7398 91.8856)" fill="#8E62EC"/>
-<ellipse opacity="0.6" cx="105.132" cy="83.6864" rx="39.7591" ry="57.0932" transform="rotate(-89.0147 105.132 83.6864)" fill="#E162EC"/>
-<ellipse opacity="0.6" cx="599.072" cy="679.361" rx="39.7454" ry="51.0816" transform="rotate(-15.6069 599.072 679.361)" fill="#E9A021"/>
-<ellipse opacity="0.6" cx="586.669" cy="691.349" rx="39.7591" ry="51.0545" transform="rotate(105.059 586.669 691.349)" fill="#E9EC62"/>
+<svg width="713" height="616" viewBox="0 0 713 616" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="122" y="37" width="486" height="486" fill="url(#pattern0)"/>
+<ellipse opacity="0.6" cx="80.7395" cy="91.8857" rx="39.7454" ry="57.0735" transform="rotate(-134.084 80.7395 91.8857)" fill="#8E62EC"/>
+<ellipse opacity="0.6" cx="105.132" cy="83.6866" rx="39.7591" ry="57.0932" transform="rotate(-89.0147 105.132 83.6866)" fill="#E162EC"/>
+<ellipse opacity="0.6" cx="624.83" cy="514.372" rx="39.7454" ry="51.0816" transform="rotate(-15.6069 624.83 514.372)" fill="#E9A021"/>
+<ellipse opacity="0.6" cx="616.176" cy="526.361" rx="39.7591" ry="51.0545" transform="rotate(105.059 616.176 526.361)" fill="#E9EC62"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_0_1" transform="scale(0.000833333)"/>
