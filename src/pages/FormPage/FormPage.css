@@ -1,0 +1,58 @@
+form{
+    width: 70%;
+    margin: 0 auto;
+}
+.input-group{
+    font-size: 14px;
+    margin-bottom: 28px;
+}
+.input-group label{
+    color: #414040;
+    margin-bottom: 8px;
+    display: inline-block;
+    margin-right: 7px;
+    font-weight: 500;
+}
+.input-group .input-parent{
+    position: relative;
+}
+.input-group .input-parent input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 8px;
+    border: 1px solid #DBDBDB;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    padding-right: 42px;
+    height: 100%;
+    outline: none;
+    transition: .1s all ease-in;
+    -webkit-transition: .1s all ease-in;
+    -moz-transition: .1s all ease-in;
+    -ms-transition: .1s all ease-in;
+    -o-transition: .1s all ease-in;
+    font-weight: 600;
+    color: rgb(32, 32, 32);
+}
+.input-group .input-parent input:focus{
+border-color: #323EE2;
+background: #fafafa;
+}
+.input-group .input-parent input::placeholder{
+    color: #C9C4C4;
+    
+}
+.input-group .input-parent svg{
+    position: absolute;
+    right: 12px;
+    top: 25%;
+    color: #7E7A7A;
+}
+
+

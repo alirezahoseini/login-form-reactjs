@@ -1,5 +1,5 @@
 /* ------ Components ------ */
-import FormPage from "./pages/FormPage"; 
+import FormPage from "./pages/FormPage/FormPage"; 
 import LoginForm from "./components/loginForm/LoginForm";
 import SigninForm from "./components/SigninForm/SigninForm";
 
