@@ -42,17 +42,21 @@ form{
 }
 .input-group .input-parent input:focus{
 border-color: #323EE2;
-background: #fafafa;
 }
 .input-group .input-parent input::placeholder{
-    color: #C9C4C4;
-    
+    color: #C9C4C4; 
 }
-.input-group .input-parent svg{
+.input-group .input-parent svg.input-icon{
     position: absolute;
     right: 12px;
     top: 25%;
     color: #7E7A7A;
+}
+.input-group .input-parent .show-pass-button{
+    position: absolute;
+    left: 15px;
+    top: 25%;
+    color: #C9C4C4;
 }
 
 
