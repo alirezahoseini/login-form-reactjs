@@ -55,8 +55,11 @@ border-color: #323EE2;
 .input-group .input-parent .show-pass-button{
     position: absolute;
     left: 15px;
-    top: 25%;
+    top: 19%;
     color: #C9C4C4;
+}
+.input-group.password-input svg.input-icon{
+    top: 19%;
 }
 
 
