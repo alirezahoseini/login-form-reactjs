@@ -1,9 +1,10 @@
 import { Formik, Form } from 'formik'
 import { User } from 'iconsax-react'
 
-
+/* ------ Components ------ */
 import PasswordInput from '../PasswordInput/PasswordInput'
 import NormalInput from '../NormalInput/NormalInput'
+import RememberCheckbox from "../../components/RememberCheckbox/RememberCheckbox"
 
 export default function LoginForm() {
 
@@ -22,6 +23,7 @@ export default function LoginForm() {
             <User className='input-icon' size='21' />
           </NormalInput>
           <PasswordInput />
+          <RememberCheckbox />
         </Form>
       </Formik>
       <form>

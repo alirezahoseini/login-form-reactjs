@@ -63,3 +63,25 @@ border-color: #323EE2;
 }
 
 
+ /*  ----------- Remember check box -----------  */
+ #remember-checkbox{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 8px;
+ }
+ #remember-checkbox label{
+    cursor: pointer;
+    font-size: 14px;
+    color: #414040;
+ }
+ #remember-checkbox input#remember-input{
+    display: none;
+ }
+ #remember-checkbox input#remember-input ~ label{
+    color : #D0D0D0 ;
+ }
+ #remember-checkbox input#remember-input:checked ~ label{
+    color : #323EE2 !important;
+    font-size: xx-small;
+ }
