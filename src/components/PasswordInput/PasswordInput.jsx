@@ -11,7 +11,7 @@ const PasswordInput = () => {
                 <Lock className='input-icon' size="21" />
                 <Field name='password' id='password'
                     type={isShowPassword ? 'text' : 'password'}
-                    placeholder="نام کاربری خود را وارد کنید" />
+                    placeholder="کلمه عبور خود را وارد کنید" />
                 <button type='button' className="show-pass-button" onClick={() => setIsShowPassword(prev => !prev)}>
                     {isShowPassword ? (
                         <EyeSlash size="21" />
