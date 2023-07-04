@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 import PasswordInput from '../PasswordInput/PasswordInput'
 import NormalInput from '../NormalInput/NormalInput'
 import RememberCheckbox from "../../components/RememberCheckbox/RememberCheckbox"
+import SubmitButton from '../SubmitButton/SubmitButton'
 
 export default function LoginForm() {
 
@@ -28,6 +29,7 @@ export default function LoginForm() {
             <RememberCheckbox />
             <Link to='#' className='text-sm text-[#484FE8]'>بازیابی رمز عبور</Link>
           </div>
+          <SubmitButton title='ورود' />
         </Form>
       </Formik>
       <form>
