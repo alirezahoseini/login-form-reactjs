@@ -1,5 +1,6 @@
 import { Formik, Form } from 'formik'
 import { User } from 'iconsax-react'
+import { Link } from 'react-router-dom'
 
 /* ------ Components ------ */
 import PasswordInput from '../PasswordInput/PasswordInput'
@@ -23,7 +24,10 @@ export default function LoginForm() {
             <User className='input-icon' size='21' />
           </NormalInput>
           <PasswordInput />
-          <RememberCheckbox />
+          <div className='flex items-center justify-between'>
+            <RememberCheckbox />
+            <Link to='#' className='text-sm text-[#484FE8]'>بازیابی رمز عبور</Link>
+          </div>
         </Form>
       </Formik>
       <form>

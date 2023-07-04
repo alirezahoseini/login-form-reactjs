@@ -55,11 +55,11 @@ border-color: #323EE2;
 .input-group .input-parent .show-pass-button{
     position: absolute;
     left: 15px;
-    top: 19%;
+    top: 25%;
     color: #C9C4C4;
 }
 .input-group.password-input svg.input-icon{
-    top: 19%;
+    top: 25%;
 }
 
 
@@ -75,13 +75,10 @@ border-color: #323EE2;
     font-size: 14px;
     color: #414040;
  }
+ #remember-checkbox label::selection {
+    background-color: rgba(255, 255, 255, 0);
+}
  #remember-checkbox input#remember-input{
     display: none;
  }
- #remember-checkbox input#remember-input ~ label{
-    color : #D0D0D0 ;
- }
- #remember-checkbox input#remember-input:checked ~ label{
-    color : #323EE2 !important;
-    font-size: xx-small;
- }
+

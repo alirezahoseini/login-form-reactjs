@@ -19,7 +19,6 @@ const PasswordInput = () => {
                         <Eye size="21" />
                     )}
                 </button>
-                <button type="submit">submit</button>
             </div>
         </div>
     )}
