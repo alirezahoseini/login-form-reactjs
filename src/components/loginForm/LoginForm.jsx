@@ -8,6 +8,7 @@ import NormalInput from '../NormalInput/NormalInput'
 import RememberCheckbox from "../../components/RememberCheckbox/RememberCheckbox"
 import SubmitButton from '../SubmitButton/SubmitButton'
 import ContinueWithGoogleButton from '../ContinueWithGoogleButton/ContinueWithGoogleButton'
+import SwitchInFormsButton from '../SwitchInFormsButton/SwitchInFormsButton'
 
 export default function LoginForm() {
 
@@ -32,6 +33,7 @@ export default function LoginForm() {
           </div>
           <SubmitButton title='ورود' />
           <ContinueWithGoogleButton title='ورود با گوگل' />
+          <SwitchInFormsButton desc='عضویت قبلی ندارید؟' title='ثبت نام' path='/signin' />
         </Form>
       </Formik>
       <form>
